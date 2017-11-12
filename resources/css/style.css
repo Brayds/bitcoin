@@ -58,11 +58,17 @@ justify-content: center;
   padding-right: 30px;
 }
 #aboutme,
-#howworks {
+#howworks,
+#graph {
 display: flex;
 text-align: justify;
+align-items: center;
 padding-top: 10px;
 padding-left: 10px;
+}
+
+#graph{
+  padding-top: 30px;
 }
 
 .copy,
