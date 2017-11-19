@@ -59,7 +59,8 @@ justify-content: center;
 }
 #aboutme,
 #howworks,
-#graph {
+#graph,
+#howdoing{
 display: flex;
 text-align: justify;
 align-items: center;
@@ -77,17 +78,34 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
+.howdoingmedia {
+padding-left: 10px;
+padding-right: 35px;
+}
+
 #questions{
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#procon,
-#eg{
+#procon{
   display: flex;
   justify-content: center;
   text-align: center;
   justify-content:center;
+}
+#eg{
+  display: flex;
+  text-align: center;
+  justify-content:flex-end;
+  padding-right: 55px;
+}
+#howmuch{
+  display: flex;
+  text-align: center;
+  justify-content:flex-end;
+  padding-right: 55px;
+  align-items: center;
 }
 .pro,
 .con{
@@ -108,4 +126,62 @@ padding-right: 10px;
   font-size: 20px;
   padding: 10px;
   margin: 10px;
+}
+.time{
+  border: 5px dotted #ff5c5c;
+}
+
+#howmuch,
+#exit,
+#start {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-right: 55px;
+  margin-top: 55px;
+  padding-top: 5px;
+  background-color:  #ff5c5c;
+  color: white;
+  align-items: center;
+}
+#moneyback {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-right: 55px;
+  padding-top: 10px;
+  align-items: center;
+}
+.howmuchmedia,
+.moneybackmedia,
+.exitmedia,
+.startmedia {
+padding-left: 10px;
+padding-right: 35px;
+}
+.howmuchcopy,
+.moneybackcopy,
+.exitcopy
+.startcopy {
+padding-left: 10px;
+padding-right: 35px;
+text-align: center;
+}
+#buttonwhite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#buttonpink{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5c5c;
+  color: white;
+  padding-bottom: 10px;
+}
+#email{
+  border: 5px dotted #ff5c5c;
 }
